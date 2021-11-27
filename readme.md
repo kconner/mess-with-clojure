@@ -51,3 +51,9 @@ Build and run.
 cd someapp
 lein run
 ```
+
+Note that Leiningen has stored data in `~/.lein` and `~/.m2`.
+
+```bash
+ls -alt ~
+```
