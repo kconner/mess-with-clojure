@@ -1,12 +1,45 @@
 # Mess with Clojure
 
+Assumes macOS Monterey.
+
+## With Clojure's basic tools
+
+Install OpenJDK and wire it up to the system Java context.
+
+```bash
+brew install openjdk
+export JAVA_HOME=/opt/homebrew/opt/openjdk
+```
+
+Install Clojure.
+
+```bash
+brew install clojure/tools/clojure
+```
+
+Start a REPL.
+
+```bash
+clj
+user=> "Hello, world"
+^D
+```
+
+Note that Clojure has stored data in `~/.m2`, `~/.clojure`, and `~/.clojure_history`.
+
+```bash
+ls -alt ~
+```
+
+## With Leiningen
+
 Install Leiningen.
 
 ```bash
 brew install leiningen
 ```
 
-You should be able to start a repl.
+Start a REPL.
 
 ```bash
 lein repl
