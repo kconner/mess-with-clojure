@@ -39,7 +39,7 @@ Install Leiningen.
 brew install leiningen
 ```
 
-Start a REPL.
+Start a REPL. Compared to `clj`, this REPL has tab completion that helps exploration.
 
 ```bash
 lein repl
