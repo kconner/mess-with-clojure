@@ -2,8 +2,12 @@
 
 ```bash
 brew install openjdk@11
-brew tap clojure/tools
-brew install clojure/tools/clojure
+```
+
+In .rc's:
+
+```bash
+export JAVA_HOME=/opt/homebrew/opt/openjdk@11
 ```
 
 Install [Calva](https://calva.io) for VS Code
