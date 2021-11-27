@@ -1,16 +1,12 @@
 # Mess with Clojure
 
 ```bash
-brew install openjdk@11
+brew install leiningen
 ```
 
-In .rc's:
+Then, the repl:
 
 ```bash
-export JAVA_HOME=/opt/homebrew/opt/openjdk@11
+lein repl
 ```
-
-Install [Calva](https://calva.io) for VS Code
-
-⇧⌘P, Calva: Fire up the "Getting Started" REPL
 
